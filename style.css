@@ -1,0 +1,329 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*VARIÁVEIS*/
+:root {
+    --fundo-containers: #F5F5F5;
+    --laranja-principal: #F28300;
+    --cinza-secundario: #D9D9D9;
+    --cinza: #999999;
+}
+body {
+    display: flexbox;
+}
+
+/*Escolha um prompt*/
+
+.frases-destaque h1 {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 159px;
+    font-family: 'Montserrat';
+    color: var(--laranja-principal);
+}
+
+/*escreva o que busca diretamente no chat lá embaixo*/
+
+.frases-destaque h4 {
+    position: relative;
+    margin-top: -20px;
+    margin-left: 159px;
+    font-family: "Montserrat";
+    color: var(--cinza);
+}
+
+.prompts {
+    margin-left: -139px;
+}
+/*Card 'Política de Compliance'*/
+
+.prompt_1 {
+    background: var(--fundo-containers);
+    width: 240px;
+    height: 140px;
+    border-radius: 2em;
+    margin-left: 290px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.prompt_1 p {
+    font-size: 15px;
+    padding-top: 30px;
+    margin-top: -4px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    font-weight: 580;
+    color: var(--cinza);
+}
+
+.prompt_1 h3 {
+    width: 115px;
+    font-size: 20px;
+    margin-top: -2px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    color: var(--laranja-principal)
+}
+
+.prompt_1:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.25), 
+}
+
+/*Card 'Código de Cultura A2'*/
+
+.prompt_2 {
+    background: var(--fundo-containers);
+    width: 240px;
+    height: 140px;
+    border-radius: 2em;
+    margin-left: 540px;
+    margin-top: -140px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.prompt_2 p {
+    font-size: 15px;
+    padding-top: 30px;
+    margin-top: -4px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    font-weight: 580;
+    color: var(--cinza);
+}
+
+.prompt_2 h3 {
+    width: 115px;
+    font-size: 20px;
+    margin-top: -2px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    color: var(--laranja-principal);
+
+}
+
+.prompt_2:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.25), 
+}
+
+/*Card 'Condutas Inaceitáveis na A2'*/
+
+.prompt_3 {
+    background: var(--fundo-containers);
+    width: 240px;
+    height: 140px;
+    border-radius: 2em;
+    margin-left: 287px;
+    margin-top: 14px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.prompt_3 p {
+    font-size: 15px;
+    padding-top: 30px;
+    margin-top: -4px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    font-weight: 580;
+    color: var(--cinza);
+}
+
+.prompt_3 h3 {
+    width: 205px;
+    font-size: 20px;
+    margin-top: -2px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    color: var(--laranja-principal);
+
+}
+
+.prompt_3:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.25), 
+}
+
+/*Card 'Valores e Fit Cultural A2'*/
+.prompt_4 {
+    background: var(--fundo-containers);
+    width: 240px;
+    height: 140px;
+    border-radius: 2em;
+    margin-left: 540px;
+    margin-top: -140px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.prompt_4 p {
+    font-size: 15px;
+    padding-top: 30px;
+    margin-top: -4px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    font-weight: 580;
+    color: var(--cinza);
+}
+
+.prompt_4 h3 {
+    width: 205px;
+    font-size: 20px;
+    margin-top: -2px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    color: var(--laranja-principal);
+
+}
+
+.prompt_4:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.25), 
+  }
+
+/*Card 'LGPD'*/
+
+.prompt_5 {
+    background: var(--fundo-containers);
+    width: 240px;
+    height: 140px;
+    border-radius: 2em;
+    margin-left: 285px;
+    margin-top: 14px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.prompt_5 p {
+    font-size: 15px;
+    padding-top: 30px;
+    margin-top: -4px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    font-weight: 580;
+    color: var(--cinza);
+}
+
+.prompt_5 h3 {
+    width: 205px;
+    font-size: 20px;
+    margin-top: -2px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    color: var(--laranja-principal);
+
+}
+
+.prompt_5:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.25), 
+}
+
+/*Card 'Todas as Equipes da A2'*/
+
+.prompt_6 {
+    background: var(--fundo-containers);
+    width: 240px;
+    height: 140px;
+    border-radius: 2em;
+    margin-left: 540px;
+    margin-top: -138px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.prompt_6 p {
+    font-size: 15px;
+    padding-top: 30px;
+    margin-top: -4px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    font-weight: 580;
+    color: var(--cinza);
+}
+
+.prompt_6 h3 {
+    width: 170px;
+    font-size: 20px;
+    margin-top: -2px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    color: var(--laranja-principal);
+}
+
+.prompt_6:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.25), 
+  }
+
+/*CHATBOX*/
+
+.chatbox {
+    background: var(--fundo-containers);
+    width: 600px;
+    height: 600px;
+    border-radius: 2em;
+    margin-left: 805px;
+    margin-top: -520px;
+}
+
+/*Chat user input*/
+
+.user-input input {
+    width: 560px;
+    height: 30px;
+    margin-top: 550px;
+    margin-left: 15px;
+    border-radius: 2em;
+    padding-left: 15px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    border: 0;
+    outline-color: var(--laranja-principal);
+    cursor: pointer;
+
+}
+
+.user-input:hover {
+    border-color: var(--laranja-principal);
+}
+
+.send-icon {
+    margin-top: -25px;
+    margin-left: 555px;
+}
+
+.send-icon img {
+    height: 18px;
+}
+
+/*chatbot response box*/
+
+.chatbot-response {
+    background: var(--cinza-secundario);
+    height: 30px;
+    width: 290px;
+    border-radius: 2em;
+    margin-top: -100px;
+    margin-left: 60px;
+}
+
+.chatbot-response p {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 15px;
+
+}
+
+.robot-icon {
+    margin-left: 25px;
+    margin-top: -27px;
+}
+
+
+
